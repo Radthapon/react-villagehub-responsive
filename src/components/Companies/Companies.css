@@ -1,0 +1,23 @@
+.c-container{
+    justify-content: space-between;
+}
+
+.c-container>img{
+    width: 120px;
+    height: 70px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+@media (max-width:640px) {
+    .c-container{
+        flex-direction: column;
+    }
+    .c-container>img{
+        width: 140px;
+        height: 70px;
+        object-fit: cover;
+    }
+    
+}

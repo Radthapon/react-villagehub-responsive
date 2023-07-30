@@ -1,0 +1,21 @@
+
+.inner-container{
+    background: #563a1e;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.inner-container>div{
+    gap: 1rem;
+    text-align: center;
+}
+
+.get-title{
+    gap: 1rem;
+    color:var(--secondary)
+}
+
+.get-button button{
+    padding: 1rem 2rem;
+    border: 2px solid var(--secondary);
+}

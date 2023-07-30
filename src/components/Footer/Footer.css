@@ -1,0 +1,47 @@
+.f-container {
+    justify-content: space-between;
+}
+
+.left-footer{
+    gap: 1rem;
+}
+.logo-footer{
+    position: relative;
+    z-index: 1;
+}
+.logo-footer>div{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #381b0c83;
+    border-radius: 50%;
+    right: -20px;
+    top: -15px;
+    z-index: -1;
+}
+h1{
+    font-weight: 700;
+}
+
+.rigth-footer{
+    gap: 1rem;
+}
+
+
+.link-footer{
+    gap: 1rem;
+}
+
+.link-footer a {
+    font-size: 0.8rem;
+    color: #381b0c;
+}
+
+@media (max-width:640px) {
+    .f-container {
+        flex-direction: column;
+    }
+    .link-footer{
+        gap: 2rem;
+    }
+}

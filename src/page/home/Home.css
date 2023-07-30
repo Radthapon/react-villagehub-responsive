@@ -1,0 +1,17 @@
+.home{
+    position: relative;
+    overflow-x: clip;
+}
+
+.home>:nth-child(1){
+    background: var(--black);
+    position: relative;
+}
+.white-gradient{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background: rgba(245, 255, 233, 0.401);
+    filter: blur(100px);
+    border-radius: 100px;
+}

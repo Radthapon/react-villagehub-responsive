@@ -9,7 +9,7 @@ const Countact = () => {
   return (
     <section className="u-wrapper">
         <div className="flexCenter paddings innerWidth u-container">
-
+            <a id="contact"></a>
             <div className=" flexCenter left-side">
                 <div className="flexColStart contact-title">
                     <span className="orangeText">Our Contact Us</span>

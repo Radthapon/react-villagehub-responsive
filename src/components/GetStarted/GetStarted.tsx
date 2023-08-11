@@ -4,6 +4,7 @@ const GetStarted = () => {
   return (
     <section className="g-wrapper">
         <div className="flexCenter paddings innerWidth g-container">
+          <a id="strated"></a>
             <div className="innerWidth inner-container">
             <div className="flexColCenter">
             <div className="flexColCenter get-title">

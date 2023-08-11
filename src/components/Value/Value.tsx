@@ -16,7 +16,7 @@ const Value = () => {
   return (
     <section className="v-warpper">
         <div className="flexCenter paddings innerWidth v-container">
-
+            <a id="value"></a>
             {/* Left side */}
             <div className="flexColCenter v-left">
                 <div className="vimage-container">

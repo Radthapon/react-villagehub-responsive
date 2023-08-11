@@ -23,10 +23,10 @@ const Header = () => {
         <img src="./villagehub.png" className="img-logo" alt="logo" />
       <OutsideClickHandler onOutsideClick={onClickOutside}>
       <div className="flexCenter h-menu" style={getMenuStyle(menuOpened)}>
-            <a href="">Residencies</a>
-            <a href="">Our Value</a>
-            <a href="">Contact Us</a>
-            <a href="">Get Started</a>
+            <a href="#residecies">Residencies</a>
+            <a href="#value">Our Value</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#strated">Get Started</a>
             <button className='button'>
               <a href="">Contact</a>
             </button>

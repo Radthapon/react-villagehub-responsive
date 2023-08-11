@@ -19,11 +19,13 @@ const Residencies = () => {
 
   return (
     <section className="r-wrapper">
+      <a id="residecies"></a>
       <div className="paddings innerWidth r-container">
         <div className="r-head flexColStart">
           <span className='orangeText'>Best Choices</span>
           <span className='primaryText'>Popular Residencies</span>
         </div>
+        
         <Swiper {...sliderSettings}>
         <SliderButtions/>
           {data.map((card, i) => (
@@ -41,8 +43,8 @@ const Residencies = () => {
               </div>
             </SwiperSlide>
           ))}
-          
         </Swiper>
+
       </div>
     </section>
   );
